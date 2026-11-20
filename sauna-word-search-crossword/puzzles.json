@@ -1,0 +1,350 @@
+{
+ "word_search": {
+  "grid": [
+   "FTHCRIBOASMKGIB",
+   "MEKSIHWDAUEVGFA",
+   "UKVKPFSUREFWICN",
+   "NCWROAIVNSYGVRY",
+   "EUOYUKMKIRMLUPA",
+   "SBENEBEPFHHOYSL",
+   "EVASNMELFITUKOS",
+   "LEPRTPANDONATEL",
+   "SNKYLORECAYLMAL",
+   "TIEUASNETHLIAWH",
+   "OKNRTTCIBSNTMNE",
+   "WGWLTOPVAMAOMLD",
+   "EIEUPVDUVEEWAOC",
+   "LFVHEETSHSLTHOC",
+   "SENOTSTTAEWSRWA"
+  ],
+  "words": [
+   "SAUNA",
+   "BANYA",
+   "LOYLY",
+   "STEAM",
+   "STONES",
+   "BENCH",
+   "LADLE",
+   "BUCKET",
+   "WHISK",
+   "BIRCH",
+   "TOWEL",
+   "FELT",
+   "WOOL",
+   "HAT",
+   "HEAT",
+   "STOVE",
+   "PLUNGE",
+   "HAMMAM",
+   "AUFGUSS",
+   "VIHTA",
+   "VENIK",
+   "KIUAS",
+   "EMBER",
+   "SWEAT",
+   "FINLAND",
+   "ESTONIA",
+   "SMOKE",
+   "ROBE"
+  ],
+  "answers": {
+   "AUFGUSS": {
+    "row": 1,
+    "col": 9,
+    "d_row": 1,
+    "d_col": 1
+   },
+   "ESTONIA": {
+    "row": 6,
+    "col": 3,
+    "d_row": 1,
+    "d_col": 1
+   },
+   "FINLAND": {
+    "row": 6,
+    "col": 9,
+    "d_row": 1,
+    "d_col": 1
+   },
+   "BUCKET": {
+    "row": 6,
+    "col": 2,
+    "d_row": -1,
+    "d_col": 0
+   },
+   "HAMMAM": {
+    "row": 14,
+    "col": 13,
+    "d_row": -1,
+    "d_col": 0
+   },
+   "PLUNGE": {
+    "row": 8,
+    "col": 6,
+    "d_row": 1,
+    "d_col": -1
+   },
+   "STONES": {
+    "row": 15,
+    "col": 6,
+    "d_row": 0,
+    "d_col": -1
+   },
+   "BANYA": {
+    "row": 1,
+    "col": 15,
+    "d_row": 1,
+    "d_col": 0
+   },
+   "BENCH": {
+    "row": 6,
+    "col": 6,
+    "d_row": 1,
+    "d_col": 1
+   },
+   "BIRCH": {
+    "row": 1,
+    "col": 7,
+    "d_row": 0,
+    "d_col": -1
+   },
+   "EMBER": {
+    "row": 13,
+    "col": 11,
+    "d_row": -1,
+    "d_col": -1
+   },
+   "KIUAS": {
+    "row": 5,
+    "col": 6,
+    "d_row": -1,
+    "d_col": 1
+   },
+   "LADLE": {
+    "row": 10,
+    "col": 11,
+    "d_row": -1,
+    "d_col": -1
+   },
+   "LOYLY": {
+    "row": 8,
+    "col": 15,
+    "d_row": -1,
+    "d_col": -1
+   },
+   "SAUNA": {
+    "row": 3,
+    "col": 7,
+    "d_row": 1,
+    "d_col": -1
+   },
+   "SMOKE": {
+    "row": 4,
+    "col": 10,
+    "d_row": 1,
+    "d_col": 1
+   },
+   "STEAM": {
+    "row": 11,
+    "col": 10,
+    "d_row": -1,
+    "d_col": -1
+   },
+   "STOVE": {
+    "row": 10,
+    "col": 6,
+    "d_row": 1,
+    "d_col": 0
+   },
+   "SWEAT": {
+    "row": 15,
+    "col": 12,
+    "d_row": 0,
+    "d_col": -1
+   },
+   "TOWEL": {
+    "row": 10,
+    "col": 1,
+    "d_row": 1,
+    "d_col": 0
+   },
+   "VENIK": {
+    "row": 7,
+    "col": 2,
+    "d_row": 1,
+    "d_col": 0
+   },
+   "VIHTA": {
+    "row": 4,
+    "col": 8,
+    "d_row": 1,
+    "d_col": 1
+   },
+   "WHISK": {
+    "row": 2,
+    "col": 7,
+    "d_row": 0,
+    "d_col": -1
+   },
+   "FELT": {
+    "row": 14,
+    "col": 2,
+    "d_row": -1,
+    "d_col": 1
+   },
+   "HEAT": {
+    "row": 14,
+    "col": 9,
+    "d_row": -1,
+    "d_col": 1
+   },
+   "ROBE": {
+    "row": 4,
+    "col": 4,
+    "d_row": 1,
+    "d_col": -1
+   },
+   "WOOL": {
+    "row": 15,
+    "col": 14,
+    "d_row": -1,
+    "d_col": 0
+   },
+   "HAT": {
+    "row": 10,
+    "col": 15,
+    "d_row": -1,
+    "d_col": -1
+   }
+  }
+ },
+ "crossword": {
+  "grid": [
+   "BASTU.....S...F..",
+   "A..O..AVANTO..E..",
+   "N..W..U...E...L.S",
+   "Y..E..F.HEAT..TEA",
+   "A.PLUNGE..M.....U",
+   "..I...U.S...ONSEN",
+   "BIRCH.S.T.F...M.A",
+   "..T..ESTONIA..O..",
+   "LEIL.M..N.N...K..",
+   "O.S..B..E.LADLE..",
+   "Y...KERIS.A.O..H.",
+   "L....R....N.O..A.",
+   "Y.....ROUND.REST."
+  ],
+  "across": {
+   "1": {
+    "answer": "BASTU",
+    "clue": "Swedish word for sauna"
+   },
+   "5": {
+    "answer": "AVANTO",
+    "clue": "Finnish word for a hole cut in the ice"
+   },
+   "7": {
+    "answer": "HEAT",
+    "clue": "It rises toward the ceiling"
+   },
+   "8": {
+    "answer": "TEA",
+    "clue": "Warm drink in the lounge after a banya"
+   },
+   "9": {
+    "answer": "PLUNGE",
+    "clue": "Cold ___: the quick dip after the heat"
+   },
+   "11": {
+    "answer": "ONSEN",
+    "clue": "Japanese hot-spring bath"
+   },
+   "13": {
+    "answer": "BIRCH",
+    "clue": "Tree whose leafy twigs make a classic whisk"
+   },
+   "15": {
+    "answer": "ESTONIA",
+    "clue": "Home of the Võromaa smoke sauna tradition"
+   },
+   "16": {
+    "answer": "LEIL",
+    "clue": "Estonian word for sauna steam"
+   },
+   "17": {
+    "answer": "LADLE",
+    "clue": "It carries water from the bucket to the stones"
+   },
+   "19": {
+    "answer": "KERIS",
+    "clue": "Estonian word for the sauna stove"
+   },
+   "21": {
+    "answer": "ROUND",
+    "clue": "One stay in the hot room"
+   },
+   "22": {
+    "answer": "REST",
+    "clue": "What to do between rounds"
+   }
+  },
+  "down": {
+   "1": {
+    "answer": "BANYA",
+    "clue": "Russian steam bath"
+   },
+   "2": {
+    "answer": "TOWEL",
+    "clue": "What you sit on"
+   },
+   "3": {
+    "answer": "STEAM",
+    "clue": "What water becomes on hot stones"
+   },
+   "4": {
+    "answer": "FELT",
+    "clue": "Wool pressed into a thick fabric without weaving"
+   },
+   "5": {
+    "answer": "AUFGUSS",
+    "clue": "German steam ritual led by a sauna master with a towel"
+   },
+   "6": {
+    "answer": "SAUNA",
+    "clue": "The Finnish word the whole world borrowed"
+   },
+   "9": {
+    "answer": "PIRTIS",
+    "clue": "Lithuanian bathhouse"
+   },
+   "10": {
+    "answer": "STONES",
+    "clue": "They sit on the stove and hold the heat"
+   },
+   "12": {
+    "answer": "SMOKE",
+    "clue": "___ sauna: the oldest kind, heated with no chimney"
+   },
+   "14": {
+    "answer": "FINLAND",
+    "clue": "Its sauna culture joined UNESCO's heritage list in 2020"
+   },
+   "15": {
+    "answer": "EMBER",
+    "clue": "Glowing piece of wood in the fire"
+   },
+   "16": {
+    "answer": "LOYLY",
+    "clue": "Finnish word for the steam off the stones (written here without its dots)"
+   },
+   "18": {
+    "answer": "DOOR",
+    "clue": "Close it quickly to keep the heat in"
+   },
+   "20": {
+    "answer": "HAT",
+    "clue": "Worn dry on your head in the hot room"
+   }
+  }
+ }
+}
