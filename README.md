@@ -1,7 +1,7 @@
-# DIVELUX sauna printables, wave 1
+# Free sauna printables
 
 Eleven free printables for sauna owners, guests, gyms and spas. Every product has a US Letter PDF, an A4 PDF,
-the HTML source, a `preview.png` and a `LISTING.md` with ready-to-paste title, descriptions, tags and license.
+the HTML source and a `preview.png`. Free to print and share under CC BY 4.0.
 
 Made by DIVELUX, makers of wool sauna hats: https://diveluxsaunahat.com ·
 more free tools: https://diveluxsaunahat.com/pages/sauna-tools
