@@ -1,0 +1,36 @@
+Good Steam - rules simulation (4000 games for every player count and player mix)
+Rules as printed: 60 cards (4 rituals x numbers 1-7 x 2 copies + 4 Wool Hats), deal 5, Bench of 4,
+gather 2, hand limit 8, full round +3, host +1 per guest, Last call deck of 20, -1 per card left in hand,
+head start: first player 0 points, second 1, everyone else 2.
+
+1. Sensible players (all 'steady')
+players | games ended | turns per game, mean (min-max) | turns each | est. minutes | win rate by seat (fair share) | score mean (sd) | rounds hosted | guests joining | full rounds | points from joining | ties
+2 | 4000/4000 | 48.7 (42-52) | 24.4 | 17 | 52.2% / 47.8% (50.0%) | 157.0 (14.2) | 15.4 | 7.6 | 12.9 | 10% | 1.7%
+3 | 4000/4000 | 45.5 (39-48) | 15.2 | 17 | 34.6% / 32.4% / 33.0% (33.3%) | 105.9 (12.1) | 13.9 | 13.4 | 11.3 | 18% | 4.2%
+4 | 4000/4000 | 40.8 (36-44) | 10.2 | 16 | 24.8% / 25.8% / 24.7% / 24.7% (25.0%) | 76.0 (10.6) | 12.1 | 17.3 | 9.7 | 25% | 4.4%
+5 | 4000/4000 | 39.3 (35-45) | 7.9 | 17 | 21.9% / 20.8% / 20.8% / 19.0% / 17.6% (20.0%) | 62.6 (10.6) | 11.5 | 21.4 | 8.7 | 30% | 5.9%
+6 | 4000/4000 | 35.9 (30-36) | 6.0 | 16 | 16.4% / 16.0% / 19.2% / 16.6% / 15.8% / 15.9% (16.7%) | 51.4 (9.7) | 10.7 | 24.3 | 7.3 | 35% | 7.0%
+Largest gap between any seat's win rate and a fair share: 2.6 percentage points
+
+2. Stuck-state check: players who pick any legal move at random
+players | games ended | turns per game, mean (min-max)
+2 | 4000/4000 | 45.6 (36-52)
+3 | 4000/4000 | 43.2 (36-51)
+4 | 4000/4000 | 39.4 (32-44)
+5 | 4000/4000 | 37.0 (25-45)
+6 | 4000/4000 | 33.3 (18-42)
+
+3. Strategy check: mixed tables (seats and types drawn at random). Strength 1.00 = wins its fair share.
+players | steady | eager (hosts at once) | full-only (waits for 4 rituals) | random
+2 | 1.37 | 0.94 | 1.43 | 0.24
+3 | 1.54 | 0.86 | 1.55 | 0.06
+4 | 1.51 | 0.92 | 1.53 | 0.03
+5 | 1.54 | 0.95 | 1.49 | 0.03
+6 | 1.55 | 0.91 | 1.50 | 0.05
+
+4. Without the head start (why it is in the rules): win rate by seat, steady players
+2 players: 54.0% / 46.0%  (fair 50.0%)
+3 players: 38.6% / 32.1% / 29.3%  (fair 33.3%)
+4 players: 28.9% / 26.4% / 22.4% / 22.3%  (fair 25.0%)
+5 players: 26.2% / 21.8% / 18.6% / 17.3% / 16.0%  (fair 20.0%)
+6 players: 21.0% / 17.3% / 17.7% / 15.2% / 14.1% / 14.7%  (fair 16.7%)
