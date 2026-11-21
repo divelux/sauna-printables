@@ -19,7 +19,9 @@ MODULES = ["p01_rules", "p02_etiquette", "p03_care", "p04_temps", "p05_types", "
            "p07_gift", "p08_words", "p09_puzzles", "p10_schedule", "p11_bingo",
            # wave 2
            "p12_pocket", "p13_journal", "p14_invites", "p15_traditions", "p16_coloring", "p17_woodstove",
-           "p18_workbook", "p19_buying", "p20_whisk", "p21_plunge", "p22_tape", "p23_signs"]
+           "p18_workbook", "p19_buying", "p20_whisk", "p21_plunge", "p22_tape", "p23_signs",
+           # wave 3
+           "p55_embroidery", "p56_applique", "p57_gnome", "p59_rituals"]
 PNG = "/tmp/pr-png"
 DATE = "D:20261120000000Z"
 

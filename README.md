@@ -1,6 +1,6 @@
 # Free sauna printables
 
-Twenty-three free printables for sauna owners, guests, gyms and spas. Every product has a US Letter PDF, an A4 PDF,
+Twenty-seven free printables for sauna owners, guests, gyms and spas. Every product has a US Letter PDF, an A4 PDF,
 the HTML source and a `preview.png`. Free to print and share under CC BY 4.0.
 
 Made by DIVELUX, makers of wool sauna hats: https://diveluxsaunahat.com ·
@@ -31,6 +31,17 @@ more free tools: https://diveluxsaunahat.com/pages/sauna-tools
 | 21 | [Cold Plunge Safety card](cold-plunge-safety-card/) | ![Cold Plunge Safety card](cold-plunge-safety-card/preview.png) | 1 page | [`cold-plunge-safety-card-letter.pdf`](cold-plunge-safety-card/cold-plunge-safety-card-letter.pdf)<br>[`cold-plunge-safety-card-a4.pdf`](cold-plunge-safety-card/cold-plunge-safety-card-a4.pdf)<br>[`cold-plunge-safety-card.html`](cold-plunge-safety-card/cold-plunge-safety-card.html) |
 | 22 | [Printable Hat Size Measuring Tape](sauna-hat-size-measuring-tape/) | ![Printable Hat Size Measuring Tape](sauna-hat-size-measuring-tape/preview.png) | 1 page, landscape | [`sauna-hat-size-measuring-tape-letter.pdf`](sauna-hat-size-measuring-tape/sauna-hat-size-measuring-tape-letter.pdf)<br>[`sauna-hat-size-measuring-tape-a4.pdf`](sauna-hat-size-measuring-tape/sauna-hat-size-measuring-tape-a4.pdf)<br>[`sauna-hat-size-measuring-tape.html`](sauna-hat-size-measuring-tape/sauna-hat-size-measuring-tape.html) |
 | 23 | [Spa and Sauna Signs set](spa-sauna-signs-set/) | ![Spa and Sauna Signs set](spa-sauna-signs-set/preview.png) | 10 pages, landscape | [`spa-sauna-signs-set-letter.pdf`](spa-sauna-signs-set/spa-sauna-signs-set-letter.pdf)<br>[`spa-sauna-signs-set-a4.pdf`](spa-sauna-signs-set/spa-sauna-signs-set-a4.pdf)<br>[`spa-sauna-signs-set.html`](spa-sauna-signs-set/spa-sauna-signs-set.html) |
+
+## Wave 3: craft patterns, a story and ritual cards
+
+Embroidery and appliqué patterns are printed true to size: each sheet has a 1 in and a 2 cm check square. Print at 100% and measure before you cut.
+
+| # | Printable | Preview | Size | Files |
+|---|---|---|---|---|
+| 24 | [Sauna Hat Embroidery and Monogram Patterns](sauna-hat-embroidery-monogram-patterns/) | ![Sauna Hat Embroidery and Monogram Patterns](sauna-hat-embroidery-monogram-patterns/preview.png) | 7 pages, true size | [`sauna-hat-embroidery-monogram-patterns-letter.pdf`](sauna-hat-embroidery-monogram-patterns/sauna-hat-embroidery-monogram-patterns-letter.pdf)<br>[`sauna-hat-embroidery-monogram-patterns-a4.pdf`](sauna-hat-embroidery-monogram-patterns/sauna-hat-embroidery-monogram-patterns-a4.pdf)<br>[`sauna-hat-embroidery-monogram-patterns.html`](sauna-hat-embroidery-monogram-patterns/sauna-hat-embroidery-monogram-patterns.html) |
+| 25 | [Felt Appliqué Templates for Hats](felt-applique-templates-for-hats/) | ![Felt Appliqué Templates for Hats](felt-applique-templates-for-hats/preview.png) | 4 pages, true size | [`felt-applique-templates-for-hats-letter.pdf`](felt-applique-templates-for-hats/felt-applique-templates-for-hats-letter.pdf)<br>[`felt-applique-templates-for-hats-a4.pdf`](felt-applique-templates-for-hats/felt-applique-templates-for-hats-a4.pdf)<br>[`felt-applique-templates-for-hats.html`](felt-applique-templates-for-hats/felt-applique-templates-for-hats.html) |
+| 26 | [The Sauna Tonttu: story and coloring pages](sauna-gnome-story-coloring/) | ![The Sauna Tonttu: story and coloring pages](sauna-gnome-story-coloring/preview.png) | 8 pages | [`sauna-gnome-story-coloring-letter.pdf`](sauna-gnome-story-coloring/sauna-gnome-story-coloring-letter.pdf)<br>[`sauna-gnome-story-coloring-a4.pdf`](sauna-gnome-story-coloring/sauna-gnome-story-coloring-a4.pdf)<br>[`sauna-gnome-story-coloring.html`](sauna-gnome-story-coloring/sauna-gnome-story-coloring.html) |
+| 27 | [Sauna Ritual Cards for sauna masters](sauna-ritual-cards-for-sauna-masters/) | ![Sauna Ritual Cards for sauna masters](sauna-ritual-cards-for-sauna-masters/preview.png) | 7 pages, 27 cards | [`sauna-ritual-cards-for-sauna-masters-letter.pdf`](sauna-ritual-cards-for-sauna-masters/sauna-ritual-cards-for-sauna-masters-letter.pdf)<br>[`sauna-ritual-cards-for-sauna-masters-a4.pdf`](sauna-ritual-cards-for-sauna-masters/sauna-ritual-cards-for-sauna-masters-a4.pdf)<br>[`sauna-ritual-cards-for-sauna-masters.html`](sauna-ritual-cards-for-sauna-masters/sauna-ritual-cards-for-sauna-masters.html) |
 
 ## Printing
 
@@ -63,3 +74,5 @@ is not true to size. `python3 _build/listings2.py` writes the LISTING.md files f
 Temperatures and sauna-type facts are read from the open dataset in `../dataset/` (Sauna Traditions of the World);
 nothing is typed in by hand. The heater size worksheet in the planning workbook follows the rule documented, with
 sources, in `../tools/sauna-heater-calculator/`. General information, not medical advice.
+
+Printables 24 to 27 (wave 3) are built the same way: `python3 _build/build.py p55 p56 p57 p59`. Their line art is in `_build/art3.py`. `python3 _build/verify_true_size.py` checks the check squares and pattern sizes in the finished PDFs, and `python3 _build/listings3.py` writes their LISTING.md files (their rows above are kept by hand).
